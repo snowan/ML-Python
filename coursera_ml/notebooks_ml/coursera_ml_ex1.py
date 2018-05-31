@@ -12,7 +12,7 @@ get_ipython().magic('matplotlib inline')
 # In[4]:
 
 import os
-path = '/Users/xwan/developers/ML/ML-Python/coursea_ml/data/ex1data1.txt' 
+path = '/coursera_ml/data/ex1data1.txt' 
 data = pd.read_csv(path, header=None, names=['Population', 'Profit'])
 data.head()
 
